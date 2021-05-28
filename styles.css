@@ -1,0 +1,90 @@
+video {
+  position: absolute;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* GLOBAL STYLES */
+
+section{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  height: 280px;
+}
+
+/* NAVBAR SECTION */
+
+#navbar{
+  display: flex;
+  background-color: aliceblue;
+  height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: rgba(0, 0, 0, 0.137);
+}
+
+#navbar img{
+  height: 100%;
+}
+
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  color: #BF8A29;
+}
+
+.nav-items div{
+  margin-right: 20px;
+}
+
+/* HERO SECTION */
+
+.viewport-header {
+  /* background-color: aliceblue; */
+  position: relative;
+  height: 100vh;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: aliceblue;
+
+}
+
+.viewport-header .text-box{
+  width: 40vw;
+  margin-left: 90px;
+}
+
+/* ------------------------ */
+/* TOKEN ECONOMICS SECTION */
+/* ------------------------ */
+
+#token-economics{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/* ------------------------ */
+/* NFT AIRDROP SECTION  */
+/* ------------------------ */
+
+#nft-airdrops{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
