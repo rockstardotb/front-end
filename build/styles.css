@@ -154,7 +154,7 @@ video {
   -1px -1px 2px #7f858d;
 }
 
-@media ( max-device-width: 570px) {
+@media ( max-device-width: 473px) {
   #about-section .btn-3{
     position: relative;
     top: 20px;
