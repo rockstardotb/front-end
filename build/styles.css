@@ -77,6 +77,20 @@ video {
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  video{
+    position: absolute;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+
 .viewport-header {
   /* background-color: aliceblue; */
   position: relative;
@@ -154,12 +168,18 @@ video {
   -1px -1px 2px #7f858d;
 }
 
-@media ( max-device-width: 473px) {
+@media ( max-device-width: 395px) {
   #about-section .btn-3{
     position: relative;
     top: 20px;
   }
 
+}
+
+@media (max-width: 768px) {
+  #about-section{
+    padding: 0px;
+  }
 }
 
 
