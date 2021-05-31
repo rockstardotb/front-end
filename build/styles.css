@@ -59,6 +59,8 @@
 }
 
 
+
+
 /* ---------------------- */
 /* HERO SECTION */
 /* ---------------------- */
@@ -152,6 +154,15 @@ video {
   -1px -1px 2px #7f858d;
 }
 
+@media ( max-device-width: 570px) {
+  #about-section .btn-3{
+    position: relative;
+    top: 20px;
+  }
+
+}
+
+
 /* ------------------------ */
 /* TOKEN ECONOMICS SECTION */
 /* ------------------------ */
@@ -200,6 +211,15 @@ video {
   
 }
 
+@media ( max-device-width: 570px) {
+  #piechart{
+    position: relative;
+    left: -35px;
+    top: -50px;
+    
+  }
+}
+
 /* ---------------------------------------- */
 /* PROTOCOL */
 /* ---------------------------------------- */
@@ -243,6 +263,26 @@ video {
   background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
   box-shadow:  5px 5px 12px #35373b,
   -5px -5px 12px #7f858d;
+}
+
+@media ( max-device-width: 570px) {
+  #protocol .reflection{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #protocol .lp-aquisition{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #protocol .charity-wallet{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+
 }
 
 
@@ -721,6 +761,13 @@ video {
 }
 
 @media (max-width: 768px) {
+  .team{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .team-list img,
   .team-list .content {
     width: 100%;
@@ -771,9 +818,5 @@ video {
 /* Footer */
 /* --------------------- */
 
-.footer{
-  height: 90px ;
-  background-color: black;
-}
 
 
