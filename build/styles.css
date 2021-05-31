@@ -491,8 +491,8 @@ video {
   border: 2px solid #232323;
   left: -6px;
   background: #C59528;
-  box-shadow:  11px 11px 22px #35373b,
-  -11px -11px 22px #7f858d;
+  box-shadow:  5px 5px 12px #35373b,
+  -5px -5px 12px #7f858d;
 }
 
 .main-timeline .date-outer:after {
